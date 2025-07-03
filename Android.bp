@@ -14,15 +14,8 @@ android_library {
         "androidx.appcompat_appcompat",
         "androidx.recyclerview_recyclerview",
         "SettingsLibMainSwitchPreference",
-        "framework-lmodroid.static",
     ],
 
     resource_dirs: ["res"],
 
-}
-
-android_library {
-    name: "org.lineageos.platform.internal",
-
-    srcs: ["src_los/**/*.java"],
 }
